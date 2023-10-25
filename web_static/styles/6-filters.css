@@ -56,11 +56,14 @@ div.container {
     border: solid 1px #DDDDDD;
     border-radius: 4px;
     padding: 20px;
+    
     /* padding-bottom: 30px; */
     
     list-style-type: none;
     display: none;
     margin-top: 14px;
+    position: relative;
+    z-index: 2;
   }
   
   .popover ul {
@@ -76,5 +79,5 @@ div.container {
     margin-top: 10px;
     margin-bottom: 10px;
   }  
-  .locations:hover .popover { display: block}
+  .locations:hover .popover { display: block; }
   .amenities:hover .popover { display: block}
