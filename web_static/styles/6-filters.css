@@ -1,11 +1,11 @@
-/* div.container {
+div.container {
     max-width: 1000px;
     position: relative;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
     min-height: calc(100vh - 192px);
-  } */
+  }
   section.filters {
     background-color: white;
     height: 70px;
